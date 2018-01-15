@@ -1,9 +1,9 @@
 {
-	"name": "webvimark/module-user-management",
+	"name": "buga1234/module-user-management",
 	"description": "User with improved RBAC",
 	"autoload": {
 		"psr-4": {
-			"webvimark\\modules\\UserManagement\\": ""
+			"buga1234\\modules\\UserManagement\\": ""
 		}
 	},
 	"require": {
