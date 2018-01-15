@@ -6,6 +6,7 @@
 			"buga1234\\modules\\UserManagement\\": ""
 		}
 	},
+	"minimum-stability": "dev",
 	"require": {
 		"webvimark/components": "^1.0.0",
 		"webvimark/bootstrap-switch": "^1.0.0",
