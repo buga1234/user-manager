@@ -1,15 +1,15 @@
 <?php
 
-namespace webvimark\modules\UserManagement\controllers;
+namespace buga1234\modules\UserManagement\controllers;
 
 
-use webvimark\modules\UserManagement\components\AuthHelper;
-use webvimark\modules\UserManagement\models\rbacDB\AbstractItem;
-use webvimark\modules\UserManagement\models\rbacDB\Permission;
-use webvimark\modules\UserManagement\models\rbacDB\Route;
-use webvimark\modules\UserManagement\models\rbacDB\search\PermissionSearch;
-use webvimark\components\AdminDefaultController;
-use webvimark\modules\UserManagement\UserManagementModule;
+use buga1234\modules\UserManagement\components\AuthHelper;
+use buga1234\modules\UserManagement\models\rbacDB\AbstractItem;
+use buga1234\modules\UserManagement\models\rbacDB\Permission;
+use buga1234\modules\UserManagement\models\rbacDB\Route;
+use buga1234\modules\UserManagement\models\rbacDB\search\PermissionSearch;
+use buga1234\components\AdminDefaultController;
+use buga1234\modules\UserManagement\UserManagementModule;
 use Yii;
 
 class PermissionController extends AdminDefaultController
@@ -17,12 +17,12 @@ class PermissionController extends AdminDefaultController
 	/**
 	 * @var Permission
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\rbacDB\Permission';
+	public $modelClass = 'buga1234\modules\UserManagement\models\rbacDB\Permission';
 
 	/**
 	 * @var PermissionSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\rbacDB\search\PermissionSearch';
+	public $modelSearchClass = 'buga1234\modules\UserManagement\models\rbacDB\search\PermissionSearch';
 
 	/**
 	 * @param string $id

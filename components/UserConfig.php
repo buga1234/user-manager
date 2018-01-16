@@ -1,20 +1,20 @@
 <?php
 
-namespace webvimark\modules\UserManagement\components;
+namespace buga1234\modules\UserManagement\components;
 
 use yii\web\User;
 use Yii;
 
 /**
  * Class UserConfig
- * @package webvimark\modules\UserManagement\components
+ * @package buga1234\modules\UserManagement\components
  */
 class UserConfig extends User
 {
 	/**
 	 * @inheritdoc
 	 */
-	public $identityClass = 'webvimark\modules\UserManagement\models\User';
+	public $identityClass = 'buga1234\modules\UserManagement\models\User';
 
 	/**
 	 * @inheritdoc

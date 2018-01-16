@@ -1,9 +1,9 @@
 <?php
-namespace webvimark\modules\UserManagement\models\rbacDB;
+namespace buga1234\modules\UserManagement\models\rbacDB;
 
-use webvimark\modules\UserManagement\components\AuthHelper;
-use webvimark\modules\UserManagement\components\AbstractItemEvent;
-use webvimark\modules\UserManagement\UserManagementModule;
+use buga1234\modules\UserManagement\components\AuthHelper;
+use buga1234\modules\UserManagement\components\AbstractItemEvent;
+use buga1234\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\base\Event;
 use yii\base\ModelEvent;

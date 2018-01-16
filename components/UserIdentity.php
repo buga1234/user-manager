@@ -1,7 +1,7 @@
 <?php
-namespace webvimark\modules\UserManagement\components;
+namespace buga1234\modules\UserManagement\components;
 
-use webvimark\modules\UserManagement\models\User;
+use buga1234\modules\UserManagement\models\User;
 use yii\base\Security;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;

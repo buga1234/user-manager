@@ -1,10 +1,10 @@
 <?php
 
-namespace webvimark\modules\UserManagement\models;
+namespace buga1234\modules\UserManagement\models;
 
 use Ikimea\Browser\Browser;
-use webvimark\helpers\LittleBigHelper;
-use webvimark\modules\UserManagement\UserManagementModule;
+use buga1234\helpers\LittleBigHelper;
+use buga1234\modules\UserManagement\UserManagementModule;
 use Yii;
 
 /**
@@ -22,7 +22,7 @@ use Yii;
  *
  * @property User $user
  */
-class UserVisitLog extends \webvimark\components\BaseActiveRecord
+class UserVisitLog extends \buga1234\components\BaseActiveRecord
 {
 	CONST SESSION_TOKEN = '__visitorToken';
 

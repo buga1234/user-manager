@@ -1,10 +1,10 @@
 <?php
 /**
  * @var yii\widgets\ActiveForm $form
- * @var webvimark\modules\UserManagement\models\rbacDB\Role $model
+ * @var buga1234\modules\UserManagement\models\rbacDB\Role $model
  */
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use buga1234\modules\UserManagement\UserManagementModule;
 
 $this->title = UserManagementModule::t('back', 'Editing role: ') . ' ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => UserManagementModule::t('back', 'Roles'), 'url' => ['index']];

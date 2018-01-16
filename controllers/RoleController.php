@@ -1,13 +1,13 @@
 <?php
 
-namespace webvimark\modules\UserManagement\controllers;
+namespace buga1234\modules\UserManagement\controllers;
 
-use webvimark\modules\UserManagement\components\AuthHelper;
-use webvimark\modules\UserManagement\models\rbacDB\Permission;
-use webvimark\modules\UserManagement\models\rbacDB\Role;
-use webvimark\modules\UserManagement\models\rbacDB\search\RoleSearch;
-use webvimark\components\AdminDefaultController;
-use webvimark\modules\UserManagement\UserManagementModule;
+use buga1234\modules\UserManagement\components\AuthHelper;
+use buga1234\modules\UserManagement\models\rbacDB\Permission;
+use buga1234\modules\UserManagement\models\rbacDB\Role;
+use buga1234\modules\UserManagement\models\rbacDB\search\RoleSearch;
+use buga1234\components\AdminDefaultController;
+use buga1234\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;
 
@@ -16,12 +16,12 @@ class RoleController extends AdminDefaultController
 	/**
 	 * @var Role
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\rbacDB\Role';
+	public $modelClass = 'buga1234\modules\UserManagement\models\rbacDB\Role';
 
 	/**
 	 * @var RoleSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\rbacDB\search\RoleSearch';
+	public $modelSearchClass = 'buga1234\modules\UserManagement\models\rbacDB\search\RoleSearch';
 
 	/**
 	 * @param string $id
