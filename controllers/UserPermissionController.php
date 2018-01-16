@@ -2,7 +2,7 @@
 
 namespace buga1234\modules\UserManagement\controllers;
 
-use buga1234\components\BaseController;
+use webvimark\components\BaseController;
 use buga1234\modules\UserManagement\models\rbacDB\Permission;
 use buga1234\modules\UserManagement\models\rbacDB\Role;
 use buga1234\modules\UserManagement\models\User;

@@ -8,7 +8,7 @@ use buga1234\modules\UserManagement\models\rbacDB\AbstractItem;
 use buga1234\modules\UserManagement\models\rbacDB\Permission;
 use buga1234\modules\UserManagement\models\rbacDB\Route;
 use buga1234\modules\UserManagement\models\rbacDB\search\PermissionSearch;
-use buga1234\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 use buga1234\modules\UserManagement\UserManagementModule;
 use Yii;
 

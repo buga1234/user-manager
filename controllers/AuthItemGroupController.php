@@ -5,7 +5,7 @@ namespace buga1234\modules\UserManagement\controllers;
 use buga1234\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use buga1234\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
 use Yii;
-use buga1234\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 
 /**
  * AuthItemGroupController implements the CRUD actions for AuthItemGroup model.

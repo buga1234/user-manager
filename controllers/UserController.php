@@ -2,7 +2,7 @@
 
 namespace buga1234\modules\UserManagement\controllers;
 
-use buga1234\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 use Yii;
 use buga1234\modules\UserManagement\models\User;
 use buga1234\modules\UserManagement\models\search\UserSearch;

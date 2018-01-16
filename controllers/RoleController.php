@@ -6,7 +6,7 @@ use buga1234\modules\UserManagement\components\AuthHelper;
 use buga1234\modules\UserManagement\models\rbacDB\Permission;
 use buga1234\modules\UserManagement\models\rbacDB\Role;
 use buga1234\modules\UserManagement\models\rbacDB\search\RoleSearch;
-use buga1234\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 use buga1234\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;

@@ -5,7 +5,7 @@ namespace buga1234\modules\UserManagement\controllers;
 use Yii;
 use buga1234\modules\UserManagement\models\UserVisitLog;
 use buga1234\modules\UserManagement\models\search\UserVisitLogSearch;
-use buga1234\components\AdminDefaultController;
+use webvimark\components\AdminDefaultController;
 
 /**
  * UserVisitLogController implements the CRUD actions for UserVisitLog model.

@@ -22,7 +22,7 @@ use Yii;
  *
  * @property User $user
  */
-class UserVisitLog extends \buga1234\components\BaseActiveRecord
+class UserVisitLog extends \webvimark\components\BaseActiveRecord
 {
 	CONST SESSION_TOKEN = '__visitorToken';
 
